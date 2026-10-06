@@ -1,0 +1,527 @@
+{
+  "7208402": {
+    "page": "payments",
+    "tab": "refunds",
+    "anchor": "a-7208402",
+    "url": "payments.html#a-7208402",
+    "articleUrl": "en/articles/7208402-what-is-the-refund-policy"
+  },
+  "7208452": {
+    "page": "trading-rules",
+    "tab": "days",
+    "anchor": "a-7208452",
+    "url": "trading-rules.html#a-7208452",
+    "articleUrl": "en/articles/7208452-what-is-considered-a-trading-day"
+  },
+  "7208485": {
+    "page": "payments",
+    "tab": "methods",
+    "anchor": "a-7208485",
+    "url": "payments.html#a-7208485",
+    "articleUrl": "en/articles/7208485-what-payment-methods-do-you-accept"
+  },
+  "9549300": {
+    "page": "get-started",
+    "tab": "simulated",
+    "anchor": "a-9549300",
+    "url": "get-started.html#a-9549300",
+    "articleUrl": "en/articles/9549300-is-goatfundedtrader-a-broker"
+  },
+  "9549359": {
+    "page": "rewards",
+    "tab": "eligibility",
+    "anchor": "a-9549359",
+    "url": "rewards.html#a-9549359",
+    "articleUrl": "en/articles/9549359-all-about-rewards-and-profit-splits"
+  },
+  "10065219": {
+    "page": "payments",
+    "tab": "orders",
+    "anchor": "a-10065219",
+    "url": "payments.html#a-10065219",
+    "articleUrl": "en/articles/10065219-where-can-i-find-the-receipt-for-purchase"
+  },
+  "10630134": {
+    "page": "1-step",
+    "tab": null,
+    "anchor": "",
+    "url": "1-step.html",
+    "articleUrl": "en/articles/10630134-1-step-model"
+  },
+  "10630343": {
+    "page": "3-step",
+    "tab": null,
+    "anchor": "",
+    "url": "3-step.html",
+    "articleUrl": "en/articles/10630343-3-step-model"
+  },
+  "10741900": {
+    "page": "platforms",
+    "tab": "platforms",
+    "anchor": "a-10741900",
+    "url": "platforms.html#a-10741900",
+    "articleUrl": "en/articles/10741900-which-platforms-can-i-trade-on"
+  },
+  "10741905": {
+    "page": "platforms",
+    "tab": "instruments",
+    "anchor": "a-10741905",
+    "url": "platforms.html#a-10741905",
+    "articleUrl": "en/articles/10741905-what-instruments-can-i-trade"
+  },
+  "10741910": {
+    "page": "platforms",
+    "tab": "conditions",
+    "anchor": "a-10741910",
+    "url": "platforms.html#a-10741910",
+    "articleUrl": "en/articles/10741910-what-is-the-account-leverage"
+  },
+  "10742044": {
+    "page": "platforms",
+    "tab": "conditions",
+    "anchor": "a-10742044",
+    "url": "platforms.html#a-10742044",
+    "articleUrl": "en/articles/10742044-how-does-the-commission-work-for-different-trading-instruments"
+  },
+  "10742050": {
+    "page": "why-gft",
+    "tab": "why",
+    "anchor": "a-10742050",
+    "url": "why-gft.html#a-10742050",
+    "articleUrl": "en/articles/10742050-who-owns-the-technology-behind-goat-funded-trader"
+  },
+  "10742069": {
+    "page": "trading-rules",
+    "tab": "allowed",
+    "anchor": "a-10742069",
+    "url": "trading-rules.html#a-10742069",
+    "articleUrl": "en/articles/10742069-is-it-mandatory-to-use-stop-loss-and-take-profit"
+  },
+  "10742082": {
+    "page": "trading-rules",
+    "tab": "news",
+    "anchor": "a-10742082",
+    "url": "trading-rules.html#a-10742082",
+    "articleUrl": "en/articles/10742082-can-i-hold-trades-over-the-weekend"
+  },
+  "10742084": {
+    "page": "trading-rules",
+    "tab": "news",
+    "anchor": "a-10742084",
+    "url": "trading-rules.html#a-10742084",
+    "articleUrl": "en/articles/10742084-is-news-trading-allowed"
+  },
+  "10742096": {
+    "page": "trading-rules",
+    "tab": "allowed",
+    "anchor": "a-10742096",
+    "url": "trading-rules.html#a-10742096",
+    "articleUrl": "en/articles/10742096-does-goat-funded-trader-allow-all-or-nothing-trading-strategies"
+  },
+  "10742101": {
+    "page": "trading-rules",
+    "tab": "allowed",
+    "anchor": "a-10742101",
+    "url": "trading-rules.html#a-10742101",
+    "articleUrl": "en/articles/10742101-is-hedging-allowed"
+  },
+  "10742103": {
+    "page": "account-security",
+    "tab": "access",
+    "anchor": "a-10742103",
+    "url": "account-security.html#a-10742103",
+    "articleUrl": "en/articles/10742103-ip-address-and-account-access-policy"
+  },
+  "10742107": {
+    "page": "goat-guard",
+    "tab": "goat-guard",
+    "anchor": "a-10742107",
+    "url": "goat-guard.html#a-10742107",
+    "articleUrl": "en/articles/10742107-what-is-goat-guard"
+  },
+  "10742114": {
+    "page": "trading-rules",
+    "tab": "prohibited",
+    "anchor": "a-10742114",
+    "url": "trading-rules.html#a-10742114",
+    "articleUrl": "en/articles/10742114-risk-limitation-policy"
+  },
+  "10742118": {
+    "page": "trading-rules",
+    "tab": "prohibited",
+    "anchor": "a-10742118",
+    "url": "trading-rules.html#a-10742118",
+    "articleUrl": "en/articles/10742118-what-are-prohibited-trading-practices"
+  },
+  "10742178": {
+    "page": "get-started",
+    "tab": "credentials",
+    "anchor": "a-10742178",
+    "url": "get-started.html#a-10742178",
+    "articleUrl": "en/articles/10742178-when-will-i-receive-my-credentials"
+  },
+  "10742182": {
+    "page": "grow",
+    "tab": "certificates",
+    "anchor": "a-10742182",
+    "url": "grow.html#a-10742182",
+    "articleUrl": "en/articles/10742182-how-do-i-receive-my-certificate"
+  },
+  "10742185": {
+    "page": "trading-rules",
+    "tab": "prohibited",
+    "anchor": "a-10742185",
+    "url": "trading-rules.html#a-10742185",
+    "articleUrl": "en/articles/10742185-what-happens-if-a-rule-violation-is-detected-on-my-account"
+  },
+  "10742187": {
+    "page": "get-started",
+    "tab": "limits",
+    "anchor": "a-10742187",
+    "url": "get-started.html#a-10742187",
+    "articleUrl": "en/articles/10742187-which-countries-are-restricted-at-goat-funded-trader"
+  },
+  "10742191": {
+    "page": "get-started",
+    "tab": "limits",
+    "anchor": "a-10742191",
+    "url": "get-started.html#a-10742191",
+    "articleUrl": "en/articles/10742191-what-is-the-maximum-simulated-capital-you-can-have-with-goatfundedtrader"
+  },
+  "10742194": {
+    "page": "account-security",
+    "tab": "merge",
+    "anchor": "a-10742194",
+    "url": "account-security.html#a-10742194",
+    "articleUrl": "en/articles/10742194-can-i-merge-accounts"
+  },
+  "10742197": {
+    "page": "trading-rules",
+    "tab": "days",
+    "anchor": "a-10742197",
+    "url": "trading-rules.html#a-10742197",
+    "articleUrl": "en/articles/10742197-is-there-any-inactivity-limit"
+  },
+  "10742204": {
+    "page": "get-started",
+    "tab": "simulated",
+    "anchor": "a-10742204",
+    "url": "get-started.html#a-10742204",
+    "articleUrl": "en/articles/10742204-what-is-a-goat-funded-trader-simulated-funded-account"
+  },
+  "10742206": {
+    "page": "platforms",
+    "tab": "platforms",
+    "anchor": "a-10742206",
+    "url": "platforms.html#a-10742206",
+    "articleUrl": "en/articles/10742206-how-does-goat-funded-trader-utilize-tradingview"
+  },
+  "10742208": {
+    "page": "affiliates",
+    "tab": "join",
+    "anchor": "a-10742208",
+    "url": "affiliates.html#a-10742208",
+    "articleUrl": "en/articles/10742208-how-to-become-an-affiliate"
+  },
+  "10742214": {
+    "page": "affiliates",
+    "tab": "commissions",
+    "anchor": "a-10742214",
+    "url": "affiliates.html#a-10742214",
+    "articleUrl": "en/articles/10742214-how-does-the-compensation-structure-work-in-the-affiliate-program"
+  },
+  "10742261": {
+    "page": "rewards",
+    "tab": "request",
+    "anchor": "a-10742261",
+    "url": "rewards.html#a-10742261",
+    "articleUrl": "en/articles/10742261-how-long-does-it-take-to-receive-my-reward"
+  },
+  "10742264": {
+    "page": "rewards",
+    "tab": "request",
+    "anchor": "a-10742264",
+    "url": "rewards.html#a-10742264",
+    "articleUrl": "en/articles/10742264-how-payouts-work-eligibility-request-processing-and-arrival"
+  },
+  "10742268": {
+    "page": "rewards",
+    "tab": "eligibility",
+    "anchor": "a-10742268",
+    "url": "rewards.html#a-10742268",
+    "articleUrl": "en/articles/10742268-reward-on-demand-eligibility-criteria"
+  },
+  "10742273": {
+    "page": "rewards",
+    "tab": "eligibility",
+    "anchor": "a-10742273",
+    "url": "rewards.html#a-10742273",
+    "articleUrl": "en/articles/10742273-what-is-the-triple-payday-reward-schedule"
+  },
+  "10742292": {
+    "page": "why-gft",
+    "tab": "why",
+    "anchor": "a-10742292",
+    "url": "why-gft.html#a-10742292",
+    "articleUrl": "en/articles/10742292-one-of-the-most-established-and-trusted-firms-in-the-industry"
+  },
+  "10743310": {
+    "page": "why-gft",
+    "tab": "why",
+    "anchor": "a-10743310",
+    "url": "why-gft.html#a-10743310",
+    "articleUrl": "en/articles/10743310-industry-leading-trading-conditions-product-range"
+  },
+  "10743315": {
+    "page": "why-gft",
+    "tab": "why",
+    "anchor": "a-10743315",
+    "url": "why-gft.html#a-10743315",
+    "articleUrl": "en/articles/10743315-based-in-one-of-the-world-s-leading-financial-hubs"
+  },
+  "10743318": {
+    "page": "why-gft",
+    "tab": "why",
+    "anchor": "a-10743318",
+    "url": "why-gft.html#a-10743318",
+    "articleUrl": "en/articles/10743318-pioneering-innovation-with-our-own-in-house-technology"
+  },
+  "10743320": {
+    "page": "why-gft",
+    "tab": "why",
+    "anchor": "a-10743320",
+    "url": "why-gft.html#a-10743320",
+    "articleUrl": "en/articles/10743320-a-community-driven-firm-that-prioritizes-transparency-growth"
+  },
+  "10749630": {
+    "page": "trading-rules",
+    "tab": "allowed",
+    "anchor": "a-10749630",
+    "url": "trading-rules.html#a-10749630",
+    "articleUrl": "en/articles/10749630-can-i-use-expert-advisors-eas"
+  },
+  "10831213": {
+    "page": "grow",
+    "tab": "scaling",
+    "anchor": "a-10831213",
+    "url": "grow.html#a-10831213",
+    "articleUrl": "en/articles/10831213-how-does-the-scaling-plan-work"
+  },
+  "11036447": {
+    "page": "payments",
+    "tab": "refunds",
+    "anchor": "a-11036447",
+    "url": "payments.html#a-11036447",
+    "articleUrl": "en/articles/11036447-is-the-evaluation-fee-refundable"
+  },
+  "11111955": {
+    "page": "goat-blitz",
+    "tab": null,
+    "anchor": "",
+    "url": "goat-blitz.html",
+    "articleUrl": "en/articles/11111955-goat-blitz-model"
+  },
+  "11472001": {
+    "page": "rewards",
+    "tab": "caps",
+    "anchor": "a-11472001",
+    "url": "rewards.html#a-11472001",
+    "articleUrl": "en/articles/11472001-funded-account-reward-guidelines"
+  },
+  "11769239": {
+    "page": "goat-1-dollar",
+    "tab": null,
+    "anchor": "",
+    "url": "goat-1-dollar.html",
+    "articleUrl": "en/articles/11769239-goat-1-model"
+  },
+  "12339549": {
+    "page": "affiliates",
+    "tab": "rules",
+    "anchor": "a-12339549",
+    "url": "affiliates.html#a-12339549",
+    "articleUrl": "en/articles/12339549-can-i-use-paid-ads-to-earn-affiliate-commissions"
+  },
+  "12687827": {
+    "page": "trading-rules",
+    "tab": "days",
+    "anchor": "a-12687827",
+    "url": "trading-rules.html#a-12687827",
+    "articleUrl": "en/articles/12687827-what-time-does-a-trading-day-start"
+  },
+  "12822025": {
+    "page": "pay-later",
+    "tab": null,
+    "anchor": "",
+    "url": "pay-later.html",
+    "articleUrl": "en/articles/12822025-pay-later-model"
+  },
+  "12835510": {
+    "page": "grow",
+    "tab": "points",
+    "anchor": "a-12835510",
+    "url": "grow.html#a-12835510",
+    "articleUrl": "en/articles/12835510-goat-points"
+  },
+  "12849041": {
+    "page": "trading-rules",
+    "tab": "allowed",
+    "anchor": "a-12849041",
+    "url": "trading-rules.html#a-12849041",
+    "articleUrl": "en/articles/12849041-what-is-the-minimum-holding-time-for-trades"
+  },
+  "12921537": {
+    "page": "account-security",
+    "tab": "devices",
+    "anchor": "a-12921537",
+    "url": "account-security.html#a-12921537",
+    "articleUrl": "en/articles/12921537-shared-device-usage"
+  },
+  "13574117": {
+    "page": "instant-goat",
+    "tab": null,
+    "anchor": "",
+    "url": "instant-goat.html",
+    "articleUrl": "en/articles/13574117-instant-funding-goat-model"
+  },
+  "13574328": {
+    "page": "instant-pro",
+    "tab": null,
+    "anchor": "",
+    "url": "instant-pro.html",
+    "articleUrl": "en/articles/13574328-instant-funding-pro-model"
+  },
+  "13575169": {
+    "page": "2-step-standard",
+    "tab": null,
+    "anchor": "",
+    "url": "2-step-standard.html",
+    "articleUrl": "en/articles/13575169-2-step-standard"
+  },
+  "13575348": {
+    "page": "2-step-goat",
+    "tab": null,
+    "anchor": "",
+    "url": "2-step-goat.html",
+    "articleUrl": "en/articles/13575348-2-step-goat-model"
+  },
+  "13654578": {
+    "page": "payments",
+    "tab": "orders",
+    "anchor": "a-13654578",
+    "url": "payments.html#a-13654578",
+    "articleUrl": "en/articles/13654578-how-can-i-find-my-order-id"
+  },
+  "13675743": {
+    "page": "platforms",
+    "tab": "platforms",
+    "anchor": "a-13675743",
+    "url": "platforms.html#a-13675743",
+    "articleUrl": "en/articles/13675743-gft-mobile-app"
+  },
+  "13778401": {
+    "page": "2-step-pro",
+    "tab": null,
+    "anchor": "",
+    "url": "2-step-pro.html",
+    "articleUrl": "en/articles/13778401-2-step-pro-model"
+  },
+  "13860595": {
+    "page": "trading-rules",
+    "tab": "days",
+    "anchor": "a-13860595",
+    "url": "trading-rules.html#a-13860595",
+    "articleUrl": "en/articles/13860595-what-are-the-minimum-profitable-days"
+  },
+  "13928979": {
+    "page": "payments",
+    "tab": "bogo40",
+    "anchor": "a-13928979",
+    "url": "payments.html#a-13928979",
+    "articleUrl": "en/articles/13928979-bogo40-promotion"
+  },
+  "14123389": {
+    "page": "trading-rules",
+    "tab": "news",
+    "anchor": "a-14123389",
+    "url": "trading-rules.html#a-14123389",
+    "articleUrl": "en/articles/14123389-do-you-allow-trading-the-weekend-gap"
+  },
+  "14424149": {
+    "page": "account-security",
+    "tab": "devices",
+    "anchor": "a-14424149",
+    "url": "account-security.html#a-14424149",
+    "articleUrl": "en/articles/14424149-can-i-create-multiple-accounts-on-gft"
+  },
+  "14588703": {
+    "page": "account-security",
+    "tab": "devices",
+    "anchor": "a-14588703",
+    "url": "account-security.html#a-14588703",
+    "articleUrl": "en/articles/14588703-can-i-have-multiple-registered-accounts"
+  },
+  "15073594": {
+    "page": "platforms",
+    "tab": "conditions",
+    "anchor": "a-15073594",
+    "url": "platforms.html#a-15073594",
+    "articleUrl": "en/articles/15073594-do-you-offer-islamic-or-swap-free-accounts"
+  },
+  "15074106": {
+    "page": "get-started",
+    "tab": "fail",
+    "anchor": "a-15074106",
+    "url": "get-started.html#a-15074106",
+    "articleUrl": "en/articles/15074106-what-happens-if-i-fail-my-challenge-or-funded-account"
+  },
+  "15290379": {
+    "page": "trading-rules",
+    "tab": "days",
+    "anchor": "a-15290379",
+    "url": "trading-rules.html#a-15290379",
+    "articleUrl": "en/articles/15290379-what-is-the-consistency-rule"
+  },
+  "15945071": {
+    "page": "trading-rules",
+    "tab": "allowed",
+    "anchor": "a-15945071",
+    "url": "trading-rules.html#a-15945071",
+    "articleUrl": "en/articles/15945071-using-signals"
+  },
+  "15948316": {
+    "page": "grow",
+    "tab": "resets",
+    "anchor": "a-15948316",
+    "url": "grow.html#a-15948316",
+    "articleUrl": "en/articles/15948316-how-do-resets-work"
+  },
+  "15949678": {
+    "page": "rewards",
+    "tab": "kyc",
+    "anchor": "a-15949678",
+    "url": "rewards.html#a-15949678",
+    "articleUrl": "en/articles/15949678-identity-verification-kyc-what-to-expect"
+  },
+  "16013484": {
+    "page": "instant-premium",
+    "tab": null,
+    "anchor": "",
+    "url": "instant-premium.html",
+    "articleUrl": "en/articles/16013484-instant-premium-model"
+  },
+  "16097387": {
+    "page": "instant-hero",
+    "tab": null,
+    "anchor": "",
+    "url": "instant-hero.html",
+    "articleUrl": "en/articles/16097387-instant-hero-model"
+  },
+  "17333437": {
+    "page": "goat-stride",
+    "tab": null,
+    "anchor": "",
+    "url": "goat-stride.html",
+    "articleUrl": "en/articles/17333437-goat-stride-model"
+  }
+}

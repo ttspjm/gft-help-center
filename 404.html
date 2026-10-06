@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="help-center">
+<title>Page not found | Goat Funded Trader FAQ's</title>
+<meta name="robots" content="noindex,follow">
+<style>.hc-wait body{visibility:hidden}</style>
+<script>
+(function () {
+function hcIdIn(pathname) {
+  var match = /\/(articles|collections)\/(\d+)/.exec(String(pathname == null ? '' : pathname));
+  return match ? { family: match[1], id: match[2] } : null;
+}
+function hcRoots(pathname, locale) {
+  var MAX = 6;
+  var parts = String(pathname == null ? '' : pathname).split('/');
+  parts.pop();
+  if (parts[0] === '') parts.shift();
+  var all = ['/'], i, at = -1;
+  for (i = 0; i < parts.length; i++) all.push(all[i] + parts[i] + '/');
+  // The locale folder that is followed by articles/ or collections/; failing that, the last one.
+  for (i = 0; i < parts.length; i++) {
+    if (parts[i] !== locale) continue;
+    if (parts[i + 1] === 'articles' || parts[i + 1] === 'collections') { at = i; break; }
+    at = i;
+  }
+  var out = at < 0 ? [] : [all[at]];
+  for (i = 0; i < all.length && out.length < MAX; i++) if (out.indexOf(all[i]) < 0) out.push(all[i]);
+  return out;
+}
+function hcMovedTarget(pathname, ids) {
+  var found = hcIdIn(pathname);
+  var table = found && ids && ids[found.family];
+  if (!table || !Object.prototype.hasOwnProperty.call(table, found.id)) return null;
+  var to = String(table[found.id] || '');
+  if (!to) return null;
+  var here = String(pathname);
+  try { here = decodeURIComponent(here); } catch (e) { /* as written */ }
+  here = here.replace(/\/+$/, '').replace(/\.html$/, '');
+  var tail = '/' + to;
+  if (here.length >= tail.length && here.slice(here.length - tail.length) === tail) return null;
+  return to;
+}
+var path = location.pathname, roots = hcRoots(path, "en"), head = document.head, html = document.documentElement;
+function reveal() { html.className = html.className.replace(/\s*hc-wait/, ""); }
+function ready(fn) { if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", fn); else fn(); }
+function link(rel, url, done) {
+  var l = document.createElement("link");
+  l.rel = rel;
+  if (done) { l.onload = done; l.onerror = done; }
+  l.href = url;
+  head.appendChild(l);
+}
+function show(root) {
+  link("stylesheet", root + "assets/help.css", reveal);
+  link("stylesheet", root + "assets/brand.css");
+  link("icon", root + "assets/" + "favicon.png");
+  ready(function () {
+    document.body.setAttribute("data-root", root);
+    [].forEach.call(document.querySelectorAll("a[data-to]"), function (a) { a.href = root + a.getAttribute("data-to"); });
+    ["site.js", "search.js", "help.js"].forEach(function (name) {
+      var s = document.createElement("script");
+      s.async = false;
+      s.src = root + "assets/" + name;
+      document.body.appendChild(s);
+    });
+  });
+}
+function found(root) {
+  var to = hcMovedTarget(path, window.HC_IDS);
+  if (to) location.replace(root + to + location.search + location.hash);
+  else show(root);
+}
+function probe(i) {
+  if (i >= roots.length) return reveal();
+  var s = document.createElement("script");
+  s.onload = function () { if (window.HC_IDS) found(roots[i]); else probe(i + 1); };
+  s.onerror = function () { probe(i + 1); };
+  s.src = roots[i] + "assets/ids.js";
+  head.appendChild(s);
+}
+html.className += " hc-wait";
+setTimeout(reveal, 4000);
+probe(0);
+})();
+</script>
+</head>
+<body data-page="not-found">
+<main class="article">
+<h1>Page not found</h1>
+<p>There is nothing at this address. The article may have been removed or merged into another one.</p>
+<p>Search the help center, or <a href="/" data-to="">go back to the home page</a>.</p>
+</main>
+</body>
+</html>
