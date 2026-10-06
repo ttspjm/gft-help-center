@@ -1,0 +1,99 @@
+# Rebuilds this site from the Intercom help center.
+#
+# This repository holds only the generated pages. The generator lives in the private repository
+# ttspjm/operations-crm (packages/help-center), read here with a read-only deploy key.
+# Intercom is the master copy: support edits an article there, and the next run brings it online.
+#
+# A run that cannot produce a complete, valid site changes nothing: the published pages stay as
+# they are and the run shows red (a new article nobody mapped to a page is the usual reason; the
+# log names it).
+name: Sync from Intercom
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'   # twice an hour, off the busy top of the hour
+  workflow_dispatch:
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the published site
+        uses: actions/checkout@v4
+        with:
+          path: site
+
+      - name: Check out the generator (read-only)
+        uses: actions/checkout@v4
+        with:
+          repository: ttspjm/operations-crm
+          ssh-key: ${{ secrets.OPS_CRM_DEPLOY_KEY }}
+          path: src
+          sparse-checkout: |
+            packages/help-center
+            tenants/gft
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      # The history of every address an article has had lives in this repository, because a run
+      # cannot write back to the private one. Merge it into the copy the generator reads.
+      - name: Restore the address history
+        run: |
+          node --input-type=module -e '
+            import { readFileSync, existsSync } from "node:fs";
+            import { readSlugHistory, mergeSlugHistory, writeSlugHistory } from "./src/packages/help-center/src/slugs.mjs";
+            const target = "src/tenants/gft/help-center.slugs.json";
+            const kept = "site/.sync/help-center.slugs.json";
+            if (existsSync(kept)) {
+              const merged = mergeSlugHistory(readSlugHistory(target), JSON.parse(readFileSync(kept, "utf8"))).history;
+              writeSlugHistory(target, merged);
+            }
+          '
+
+      - name: Read Intercom and build
+        run: node src/packages/help-center/bin/help-center.mjs sync gft --strict --out "$RUNNER_TEMP/site"
+
+      # A fresh runner has no previous cache, so the generator's own guard against a sharp drop in
+      # articles has nothing to compare with. Compare with what is published.
+      - name: Refuse a sharp drop in articles
+        run: |
+          node --input-type=module -e '
+            import { readFileSync, existsSync } from "node:fs";
+            const count = (file) => existsSync(file) ? Object.keys(JSON.parse(readFileSync(file, "utf8"))).length : 0;
+            const before = count("site/map.json");
+            const after = count(process.env.RUNNER_TEMP + "/site/map.json");
+            console.log(`articles: ${before} published, ${after} in this build`);
+            if (after === 0 || (before > 0 && after < before * 0.8)) {
+              console.error("Refusing to publish: too few articles. The published site was left untouched.");
+              process.exit(1);
+            }
+          '
+
+      - name: Publish if something changed
+        run: |
+          rsync -a --delete \
+            --exclude .git --exclude .github --exclude .sync --exclude CNAME --exclude .nojekyll \
+            "$RUNNER_TEMP/site/" site/
+          cp src/tenants/gft/help-center.slugs.json site/.sync/help-center.slugs.json
+          cd site
+          touch .nojekyll
+          git add -A
+          if git diff --cached --quiet -- . ':(exclude).help-center-build'; then
+            echo "Nothing changed in Intercom since the last run."
+            exit 0
+          fi
+          git config user.name "help-center-sync"
+          git config user.email "help-center-sync@users.noreply.github.com"
+          git commit -q -m "Sync from Intercom $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q
+          echo "Published."
