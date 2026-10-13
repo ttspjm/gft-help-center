@@ -31,12 +31,12 @@
 <h4 id="h_be1a4feb24">What does this mean?</h4>
 <ul><li>The maximum daily loss limit is <b>3%</b> of your daily starting balance.</li></ul>
 <h4 id="h_91c820667d">How is it calculated?</h4>
-<ul><li>The daily drawdown is calculated daily at 5 PM EST based on your account balance or equity. Your equity must not drop by more than 3% of your initial account balance in a single trading day.</li></ul>
-<div class="ex"><div class="ex-label">Worked example</div><div class="ex-row"><span><i>For a $100,000 account, the daily drawdown limit is <b>$3,000</b>. If your account balance or equity drops below <b>$97,000</b>, you will exceed your daily loss limit.</i></span></div></div>
+<ul><li>The daily drawdown is reset every day at 5 PM EST. At the reset, we take the higher of your balance and equity and set your daily limit 3% below it. The limit stays the same until the next reset.</li></ul>
+<div class="ex"><div class="ex-label">Worked example</div><div class="ex-row"><span><i>For a $100,000 account, the daily drawdown limit on the first day is <b>$3,000</b>, so your balance or equity must stay above <b>$97,000</b>. If your account starts the next day at $104,000, your daily limit for that day is <b>$100,880</b> (3% below $104,000).</i></span></div></div>
 <h3 id="h_a30f8d4936">2. <b>Max Total Drawdown – 6% (Trailing)</b></h3>
 <h4 id="h_de64a23083">What does this mean?</h4>
-<ul><li>The maximum total drawdown of Instant Goat accounts is a trailing drawdown set at 6% of the equity value. This means that your maximum loss limit adjusts based on your account’s performance. If your equity increases, your maximum drawdown limit also moves up. However, it does not decrease if your equity drops, ensuring a dynamic but protective risk management system.</li></ul>
-<div class="ex"><div class="ex-label">Worked example</div><div class="ex-row"><span><i>For a $100,000 account:</i></span></div><div class="ex-row"><span><i>If your account reaches $104,000, your new trailing drawdown limit becomes <b>$97,760</b> (6% below your account’s equity)</i></span></div><div class="ex-row"><span><i>If your account then drops to $103,000, your new trailing drawdown limit will still be <b>$97,760.</b></i></span></div><div class="ex-row"><span><i>Your drawdown limit follows your Equity value and remains 6% of that value.</i></span></div></div>
+<ul><li>The maximum total drawdown of Instant GOAT accounts is a fixed amount equal to 6% of your initial balance. On a $100,000 account that is $6,000, so your limit starts at $94,000. When your balance or equity reaches a new high, the limit moves up so it stays $6,000 below that high. This happens during the trading day, as soon as the new high is reached. The limit never moves down, and it stops moving once it reaches your initial balance.</li></ul>
+<div class="ex"><div class="ex-label">Worked example</div><div class="ex-row"><span><i>For a $100,000 account:</i></span></div><div class="ex-row"><span><i>If your account reaches $104,000, your trailing drawdown limit becomes <b>$98,000</b> ($6,000 below your highest equity).</i></span></div><div class="ex-row"><span><i>If your account then drops to $103,000, your trailing drawdown limit stays at <b>$98,000</b>.</i></span></div><div class="ex-row"><span><i>If your account later reaches $107,000, the limit would be $101,000, but it stops at <b>$100,000</b>, your initial balance, and stays there.</i></span></div></div>
 <h4 id="h_58ece49adc"><b>N.B - The Maximum Loss Limit resets after each payout.</b></h4>
 <div class="sec" id="h_a69d0d6725"><h2>Understanding the Maximum Loss Per Trade Rule</h2></div>
 <p>If your floating profit and loss (PnL) drops below -2% of your account balance at any moment, the account will be permanently closed. This rule enforces strict risk management and prevents excessive losses.<br><br>For example, on a $50,000 account, if your combined open trade losses reach -$1,000 (-2%), the account will be immediately closed.</p>
@@ -70,7 +70,7 @@
 <h4 id="h_3c4fb2ace0"><b>Additional Details</b></h4>
 <ul><li>Important Updates:<b> </b>Please monitor our website or Discord for announcements regarding trading parameters, updates, or system changes.</li><li>All calculations include closed trade profits/losses, floating positions, swap fees, and commissions.</li><li>Instant Funding accounts cannot be merged. This applies to merges with other Instant accounts and to merges with accounts from any other model, whether the account is new, traded or freshly reset after a reward.</li></ul>
 </section>
-<p class="updated after">Updated 5 October 2026</p>
+<p class="updated after">Updated 13 October 2026</p>
 <p class="to-top"><a href="#top">Back to top</a></p>
 </main>
 <script src="assets/site.js"></script>
