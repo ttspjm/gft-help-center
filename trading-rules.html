@@ -21,7 +21,7 @@
 <h1>Trading rules</h1>
 <div class="tabs" role="tablist"><button type="button" role="tab" data-tab="allowed" class="on">Allowed and not allowed</button><button type="button" role="tab" data-tab="news">News and weekends</button><button type="button" role="tab" data-tab="days">Trading days and consistency</button><button type="button" role="tab" data-tab="prohibited">Prohibited practices</button></div>
 <section class="panel on" data-panel="allowed">
-<nav class="in-tab" aria-label="In this tab"><div class="eyebrow">In this tab</div><ul><li><a href="#a-10742101">Is hedging allowed?</a></li><li><a href="#a-10749630">Can I use Expert Advisors (EAs)?</a></li><li><a href="#a-15945071">Copy trading and signals</a></li><li><a href="#a-10742096">Does Goat Funded Trader Allow &quot;All or Nothing&quot; Trading Strategies?</a></li><li><a href="#a-12849041">What is the minimum holding time for trades?</a></li><li><a href="#a-10742069">Is it Mandatory to use stop loss and take profit?</a></li></ul></nav>
+<nav class="in-tab" aria-label="In this tab"><div class="eyebrow">In this tab</div><ul><li><a href="#a-10742101">Is hedging allowed?</a></li><li><a href="#a-10749630">Can I use Expert Advisors (EAs)?</a></li><li><a href="#a-15945071">Copy trading and signals</a></li><li><a href="#a-10742096">Does Goat Funded Trader Allow &quot;All or Nothing&quot; Trading Strategies?</a></li><li><a href="#a-12849041">What is the minimum holding time for trades?</a></li><li><a href="#a-10742069">Is it Mandatory to use stop loss and take profit?</a></li><li><a href="#a-17594664">GOAT Trade Copier: how it works and what it costs</a></li></ul></nav>
 <details class="acc" id="a-10742101"><summary>Is hedging allowed?</summary><div class="acc-body">
 <p>No, hedging is strictly prohibited. This includes:</p>
 <ul><li>Hedging within the same trading account.</li><li>Hedging between multiple accounts owned by the same trader.</li><li>Hedging between accounts owned by different traders.</li><li>Hedging between a GoatFundedTrader (GFT) account another Firm’s account, either if the two accounts are owned by the same person or by two different people.</li></ul>
@@ -62,6 +62,47 @@
 <details class="acc" id="a-10742069"><summary>Is it Mandatory to use stop loss and take profit?</summary><div class="acc-body">
 <p>No, is not. While we highly encourage utilizing stop losses and take profits as part of disciplined risk management, we do not make them mandatory.</p>
 </div></details>
+<div class="sec" id="a-17594664"><h2>GOAT Trade Copier: how it works and what it costs</h2></div>
+<p>The GOAT Trade Copier copies trades from one of your Goat Funded Trader accounts into your other Goat Funded Trader accounts. You trade one account and the others follow it.</p>
+<p>From October 12, 2026, the GOAT Trade Copier is the only way copy trading is allowed on Goat Funded Trader accounts.</p>
+<h3 id="a-17594664-h_a583371081">What it does</h3>
+<ul><li>You choose one <b>lead account</b>. This is the account you trade. Then you tick every account that should follow it.</li><li>Each follower has its own sizing, its own settings and its own copy log. Stopping one follower leaves the others running.</li><li>It works on <b>MetaTrader 5, cTrader, Match-Trader and TradeLocker</b>, and it copies between them. An MT5 lead can copy into a cTrader follower.</li><li>Each account gets its own cloud terminal. You don't install anything, and copying continues while your computer is off.</li><li>Our risk checks recognise trades copied through the GOAT Trade Copier, so they are not treated as prohibited copy trading.</li></ul>
+<h3 id="a-17594664-h_7ca111d05d">Which accounts can I copy between?</h3>
+<p>You can copy between your own Goat Funded Trader evaluation and funded accounts in any direction:</p>
+<ul><li>Evaluation to Evaluation</li><li>Evaluation to Funded</li><li>Funded to Evaluation</li><li>Funded to Funded</li></ul>
+<p>These are <b>not allowed</b>:</p>
+<ul><li>copying from an external account, even if the external account is your own</li><li>copying trades from other traders, signal providers or trading groups</li><li>using any other trade copier, copy trading tool or copier EA</li></ul>
+<p>Each of these is a prohibited trading practice and may result in account termination. See <a href="en/articles/15945071-copy-trading-and-signals" rel="noopener">Copy trading and signals</a>.</p>
+<h3 id="a-17594664-h_6865da75a7">What does it cost?</h3>
+<p><b>$2 per account per month.</b> Every account you connect counts, including your lead account.</p>
+<p>You need at least two accounts to copy (one lead and one follower), so the lowest price is <b>$4 per month</b>.</p>
+<div class="table-wrap"><table><thead><tr><th><b>Accounts connected</b></th><th><b>Monthly price</b></th></tr></thead><tbody><tr><td>2 (1 lead + 1 follower)</td><td>$4</td></tr><tr><td>3 (1 lead + 2 followers)</td><td>$6</td></tr><tr><td>5 (1 lead + 4 followers)</td><td>$10</td></tr></tbody></table></div>
+<p>There is no limit on how many accounts you can connect.</p>
+<p>The copier is a subscription, so you can only pay by <b>card</b>. Crypto and other payment methods are not accepted.</p>
+<h3 id="a-17594664-h_9e735504e1">How do I set it up?</h3>
+<ol class="steps"><li>Log in to your Trader Dashboard and open the <strong>Copier</strong> page at <a href="https://app.goatfundedtrader.com/copier" rel="noopener">app.goatfundedtrader.com/copier</a>.</li><li>Subscribe. Choose how many accounts you want to connect, <strong>including your lead account</strong>, and pay by card.</li><li>Pick your lead account. This is the account you will trade.</li><li>Tick every account that should follow it.</li><li>Choose the sizing for each follower (see below). You can also set a lot cap, symbol filters and a copy delay.</li><li>Trade your lead account as usual. Your followers copy each trade automatically.</li></ol>
+<p>You can change the sizing and settings while the copier is running.</p>
+<h3 id="a-17594664-h_b2ee746aea">How are copied trades sized?</h3>
+<p>You choose a sizing mode for each follower, so two followers of the same lead can be sized differently. There are six modes:</p>
+<ul><li>Equity to equity</li><li>Lot multiplier</li><li>Risk multiplier</li><li>Fixed lot</li><li>Fixed % risk</li><li>Fixed risk amount</li></ul>
+<p>In short, you can match each follower to the lead by equity, multiply the lead's lot size, use a fixed lot size, or fix the risk per trade.</p>
+<p>On top of the sizing mode, each follower can have a <b>lot cap</b> (the largest lot size the copier will open on that account), <b>symbol filters</b> (which symbols get copied) and a <b>copy delay</b>.</p>
+<div class="alert info"><p><strong>Want the same lot size on every account?</strong> Use <strong>Lot multiplier</strong> set to 1.</p></div>
+<h3 id="a-17594664-h_1d94c477c7">Do my account rules still apply?</h3>
+<p>Yes. Every account still follows the rules of its own model. Limits such as daily drawdown, maximum drawdown, floating loss and consistency are checked on each account separately.</p>
+<p>A trade that is fine on a $100,000 lead can break the rules on a $5,000 follower. Set each follower's sizing and lot cap so it stays inside its own limits.</p>
+<h3 id="a-17594664-h_b485d84bc9">Does the VPS and IP rule apply to the copier?</h3>
+<p>No. The GOAT Trade Copier runs in the cloud, and trades it copies into your Goat Funded Trader accounts are not treated as use of a hosting service. Any other copier running on a VPS or hosted environment is still prohibited. See the <a href="en/articles/10742103-ip-address-and-account-access-policy" rel="noopener">IP Address and Account Access Policy</a>.</p>
+<h3 id="a-17594664-h_f871ccf511">Frequently asked questions</h3>
+<p><b>I pay for another trade copier. Can I keep using it until my subscription runs out?</b></p>
+<p>No. From October 12, 2026, using any other trade copier is a prohibited trading practice. Switch to the GOAT Trade Copier.</p>
+<p><b>Is there a limit on how many accounts I can connect?</b></p>
+<p>No. You pay $2 per month for each account you connect, including the lead.</p>
+<p><b>Can my lead and followers be on different platforms?</b></p>
+<p>Yes. The copier copies between MT5, cTrader, Match-Trader and TradeLocker in any combination.</p>
+<p><b>Something isn't working. What should I do?</b></p>
+<p>Contact Support with your lead account number and a screenshot of the Copier page.</p>
+<p class="updated after">Updated 14 October 2026</p>
 </section>
 <section class="panel" data-panel="news">
 <nav class="in-tab" aria-label="In this tab"><div class="eyebrow">In this tab</div><ul><li><a href="#a-10742084">Is News Trading allowed?</a></li><li><a href="#a-10742082">Can I hold trades over the weekend?</a></li><li><a href="#a-14123389">Do you allow trading the weekend gap?</a></li></ul></nav>
