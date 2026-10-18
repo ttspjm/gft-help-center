@@ -249,6 +249,8 @@ details.acc,.sec,[id]{scroll-margin-top:90px}
 .popular{margin-top:14px}
 .acc-body{overflow-wrap:anywhere}
 .article img{height:auto;border-radius:var(--r)}
+.video{aspect-ratio:16/9;margin:0 0 18px}
+.video iframe{display:block;width:100%;height:100%;border:0;border-radius:var(--r)}
 .article h3[id],.article h4[id]{scroll-margin-top:90px}
 .ex-row span:only-child{white-space:normal}
 .btn-line{margin:4px 0 12px}
