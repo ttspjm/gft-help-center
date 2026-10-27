@@ -553,10 +553,10 @@
     "articleUrl": "en/articles/17594664-goat-trade-copier-how-it-works-and-what-it-costs"
   },
   "17677256": {
-    "page": "get-started",
-    "tab": "simulated",
-    "anchor": "a-17677256",
-    "url": "get-started.html#a-17677256",
+    "page": "instant-daily",
+    "tab": null,
+    "anchor": "",
+    "url": "instant-daily.html",
     "articleUrl": "en/articles/17677256-instant-daily-model"
   }
 }
