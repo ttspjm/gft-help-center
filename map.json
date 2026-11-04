@@ -558,5 +558,12 @@
     "anchor": "",
     "url": "instant-daily.html",
     "articleUrl": "en/articles/17677256-instant-daily-model"
+  },
+  "18230016": {
+    "page": "get-started",
+    "tab": "simulated",
+    "anchor": "a-18230016",
+    "url": "get-started.html#a-18230016",
+    "articleUrl": "en/articles/18230016-2-step-premium-model"
   }
 }
