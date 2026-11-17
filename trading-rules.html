@@ -113,6 +113,7 @@
 <p>You can't use more than 80% of your account's margin at once. This article shows how the margin on a trade is worked out, how traders go over the limit without noticing, and where to check your margin before you trade.</p>
 <h3 id="a-18469543-h_6c8248e4a2">The rule</h3>
 <p><b>Margin usage = margin used by all your open trades ÷ your equity × 100</b></p>
+<p>Equity includes the floating profit or loss on your open trades, so this figure changes while your trades are open.</p>
 <p>Every open trade counts. If you have three trades open at the same time, their margin is added together and checked as one total.</p>
 <h3 id="a-18469543-h_68113c197c">How much margin a trade uses</h3>
 <p><b>Margin for one trade = lot size × contract size × price ÷ leverage</b></p>
@@ -131,6 +132,10 @@
 <p>$10,000 funded account at 1:10. Gold at $4,000.</p>
 <ul><li>1 lot of gold uses 100 × $4,000 ÷ 10 = $40,000 of margin.</li><li>0.25 lot uses $10,000. That's 100%. Over the rule.</li></ul>
 <p>In the evaluation, the same 0.25 lot used $5,000, or 50%. A lot size that was fine in your evaluation can break the rule on your funded account.</p>
+<h3 id="a-18469543-h_43ec8366ab">Example 4: a losing trade pushes you over</h3>
+<p>$10,000 funded account at 1:50. You open 3.9 lots of USDJPY. The dollar is the first currency in the pair, so 1 lot is $100,000.</p>
+<ul><li>Margin: 3.9 × $100,000 ÷ 50 = $7,800. That's 78%, within the rule.</li><li>The trade goes $300 against you. Your equity drops to $9,700.</li><li>$7,800 ÷ $9,700 = 80.4%. You're over the rule without opening anything new.</li></ul>
+<p>If a floating loss alone takes you over, your trades were already close to the limit when you opened them.</p>
 <h3 id="a-18469543-h_a0273b3a32">Where to check your margin</h3>
 <p>Trading platforms don't show margin usage. They show Margin Level, which uses the same two numbers the other way round:</p>
 <p><b>Margin Level = equity ÷ margin × 100</b></p>
@@ -138,8 +143,8 @@
 <p>If your Margin Level is above 125%, you're under 80%.</p>
 <ul><li><b>MT5 desktop.</b> Open the Toolbox (Ctrl+T) and go to the Trade tab. The line above your open trades shows Balance, Equity, Margin, Free Margin and Margin Level. Margin Level only appears while a trade is open.</li><li><b>MT5 mobile.</b> Open the Trade tab. Balance, Equity, Margin, Free margin and Margin level are at the top.</li><li><b>cTrader.</b> The TradeWatch panel at the bottom of the screen shows Balance, Equity, Margin, Free Margin and Margin Level.</li></ul>
 <h3 id="a-18469543-h_9f790efaa5">What happens if you go over</h3>
-<p>Going over 80% doesn't close your trade. Your trader dashboard shows flagged trades in the Flagged so far card, but the final amount is set when our Risk team reviews your payout.</p>
-<p>On a funded account, our Risk team removes the profit made on flagged trades when it reviews your payout. Only profit is removed. A flagged trade that closed at a loss stays in your results.</p>
+<p>Going over 80% doesn't close your trade or stop you opening new ones. Your trader dashboard shows flagged trades in the Flagged so far card, but the final amount is set when our Risk team reviews your payout.</p>
+<p>On a funded account, our Risk team removes the profit made on flagged trades when it reviews your payout. Only profit is removed. A flagged trade that closed at a loss stays in your results. Depending on the case, our Risk team can instead move a funded account back to an evaluation phase.</p>
 <p>See also: <a href="en/articles/10742096-does-goat-funded-trader-allow-all-or-nothing-trading-strategies" rel="noopener">Does Goat Funded Trader allow &quot;All or Nothing&quot; trading strategies?</a></p>
 <p class="updated after">Updated 17 November 2026</p>
 </section>
